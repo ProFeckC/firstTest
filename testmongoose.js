@@ -5,6 +5,7 @@ const schema={
     age:Number,
     health:String
     hobby:String
+    firstaid:Boolean
 
 }
 const Cat = mongoose.model('Cat1', schema);
