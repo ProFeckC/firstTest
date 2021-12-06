@@ -6,6 +6,7 @@ const schema={
     health:String
     hobby:String
     firstaid:Boolean
+    catch:String
 
 }
 const Cat = mongoose.model('Cat1', schema);
